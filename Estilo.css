@@ -1,0 +1,74 @@
+body
+{
+	background-color: lightgray;
+	font-family: Courier New;
+}
+
+#Cabecalho
+{
+	border: black 1px solid;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 30px;
+	background: black;
+	color: white;
+
+}
+
+#NavBar
+{
+	display: flex;
+	justify-content: space-between;
+	color: blue;
+	margin:1%;
+	font-size: 20px;
+	padding: 10px;
+}
+
+a
+{
+	text-decoration: unset;
+	font-weight: bolder;
+	color: darkblue;
+}
+
+#Posts
+{
+	background-color: white;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-top: 1px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+img
+{
+	width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h4
+{
+	text-align: left;
+}
+
+pre
+{
+	text-align: left;
+}
+
+.Fontes
+{
+	box-shadow: gray 2px 2px 3px;
+	display: flex;
+	border: gray 1px solid;
+	text-shadow: gray 1px 1px 5px;
+	justify-content: space-between;
+	margin: 10px;
+	padding: 10px;
+}
